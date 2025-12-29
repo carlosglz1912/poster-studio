@@ -13,6 +13,16 @@ Después de batallar con la impresora y las configuraciones, busqué herramienta
 
 En lugar de pagar, decidí escribir mi propia solución. **Unas horas después** tenía funcionando exactamente lo que necesitaba, y ahora lo comparto como software libre para que nadie más tenga que pagar por algo tan simple.
 
+## ⚠️ Limitaciones
+
+Este proyecto es **sencillo y está probado solo en un caso de uso específico**:
+
+- ✅ **Solo PNG** - No soporta JPG, WebP u otros formatos
+- ✅ **Diseñado para avisos con texto sencillo** - Funciona bien para posters de negocios con texto simple y bloques de color
+- ❌ **NO para imágenes complejas** - Fotos, gradientes y diseños detallados perderán calidad
+- ❌ **Escalado básico** - Usa `fit: contain` sin optimización de calidad, ideal para texto simple pero no para fotografías
+- ❌ **Grid limitado** - Máximo 3×3 paneles, tamaños de papel: carta/oficio únicamente
+
 ## ✨ Características
 
 - 🖼️ **Carga de imágenes PNG** - Sube cualquier imagen PNG directamente desde tu navegador
